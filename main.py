@@ -25,7 +25,7 @@ def init_seed(seed):
 parser = argparse.ArgumentParser()
 parser.add_argument('--dataset', default='MIND-small', help='MIND-large')
 parser.add_argument('--batchSize_train', type=int, default=32)
-parser.add_argument('--batchSize_test', type=int, default=4)
+parser.add_argument('--batchSize_test', type=int, default=32)
 parser.add_argument('--epoch', type=int, default=20)
 parser.add_argument('--l2', type=float, default=1e-5, help='l2 penalty')  # [0.001, 0.0005, 0.0001, 0.00005, 0.00001]
 parser.add_argument('--lr', type=float, default=2e-4, help='learning rate')  # [0.001, 0.0005, 0.0001]

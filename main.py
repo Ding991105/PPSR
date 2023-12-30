@@ -13,7 +13,6 @@ import json
 from utils import *
 
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
-# os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "max_split_size_mb:128"
 
 
 def init_seed(seed):
